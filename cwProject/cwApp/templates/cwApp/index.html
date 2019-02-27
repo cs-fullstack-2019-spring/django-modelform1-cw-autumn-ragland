@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h1>Blog</h1>
+<!--list blog titles-->
+<ul>
+{% for eachPost in posts %}
+<li>{{ eachPost.title }}</li>
+{% endfor %}
+</ul>
+
+<br>
+<a href="{% url 'newPost' %}">Make a New Post</a>
+</body>
+</html>
