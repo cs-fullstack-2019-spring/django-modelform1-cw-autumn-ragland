@@ -1,3 +1,7 @@
+## POINTS: 1.5
+## KEY: Check requirements in README. You are missing the 'published_date' field :-( Otherwise great job!
+
+
 # Django Model Forms 1 CW
 
 ### Exercise 1: Create a basic blog entry page
